@@ -41,3 +41,19 @@ for element in a:
 print(b)
 """
 # solution 4
+"""
+number = int(input("Give me a number: "))
+numList = range(1,number)
+divisors = []
+
+for elem in numList:
+    if number % int(elem) == 0:
+        divisors.append(elem)
+print(divisors)
+"""
+# solution 5 - 1 line challenge
+"""
+rom random import *
+
+print([x for x in sorted(sample(range(1, 50), 30)) for y in sorted(sample(range(1, 50), 30)) if x == y])
+"""
