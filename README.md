@@ -1,3 +1,3 @@
 # Python-Projects
 
-Practice Project for getting back into Github
+Practice Project for practicing python, Git, and others
