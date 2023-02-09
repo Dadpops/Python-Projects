@@ -57,3 +57,12 @@ rom random import *
 
 print([x for x in sorted(sample(range(1, 50), 30)) for y in sorted(sample(range(1, 50), 30)) if x == y])
 """
+# solution 6 
+"""
+userStr = input("Give me a word: ")
+
+if userStr == userStr[::-1]:
+    print(userStr + " is a palindrome!")
+else:
+    print(userStr + " is not a palindrome!")
+"""
